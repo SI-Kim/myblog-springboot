@@ -8,6 +8,6 @@ public class TestController {
     @GetMapping("/api/home")
     public String getHome(){
         System.out.println("진입");
-        return "Hello World!";
+        return "Hello World!!";
     }
 }
